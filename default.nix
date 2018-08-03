@@ -3,8 +3,8 @@ let
   obelisk-src = (import <nixpkgs> {}).fetchFromGitHub {
     owner = "obsidiansystems";
     repo = "obelisk";
-    rev = "6c38599615eddba1b9f8dfb845f7404f53ed8053";
-    sha256 = "0pqhppn2cb69v7r6wbg2zrx5ylxbgq7bl7qilarfbmyd9gcph9h4";
+    rev = "9d8c84344aec69ce2bf3f4f84dce09ba770ac0e9";
+    sha256 = "08clnwlmx0y10386j9cjkvxzxsf2y0i1zlz07b2pdxy0x8kv2z2i";
   };
   reflex-platform = (import obelisk-src {}).reflex-platform;
 
